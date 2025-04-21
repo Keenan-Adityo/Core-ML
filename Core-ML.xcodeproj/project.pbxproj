@@ -32,6 +32,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1309FF762DB5F6E400D61574 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1309FF772DB5F6F900D61574 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		1309FF782DB5F70700D61574 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		13921C522DA8022A00F57358 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +72,9 @@
 		13921C5D2DA8022A00F57358 /* Core-ML */ = {
 			isa = PBXGroup;
 			children = (
+				1309FF782DB5F70700D61574 /* Controllers */,
+				1309FF772DB5F6F900D61574 /* ViewModels */,
+				1309FF762DB5F6E400D61574 /* Views */,
 				13921C6C2DA8049500F57358 /* Models */,
 				13921C5E2DA8022A00F57358 /* Core_MLApp.swift */,
 				13921C602DA8022A00F57358 /* ContentView.swift */,
